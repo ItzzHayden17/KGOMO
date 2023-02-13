@@ -1,0 +1,201 @@
+
+ 
+ /* Navbar */
+
+.navbar{
+    font-weight: 700;
+    margin-left: 46%;
+    text-decoration: underline;
+
+}
+.nav-item{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+}
+
+ /* Title */
+
+#title{
+    background-image: url(../img/2.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.page-head{
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline 2px;
+}
+
+
+.big-heading{
+
+    margin: 20% 0% 5% 20%;
+    font-family: 'Cardo', serif;
+    font-weight: 900;
+    font-size: 5rem;
+    color: aliceblue;
+}
+.sub-heading{
+    font-weight: 90;
+    font-size: 2.5rem;
+    margin-left: 20%;
+    color: aliceblue;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.ptitle{
+    margin:20% 0 0 20%;
+    color: #fff;
+}
+
+.titleButton{
+    text-align: center;
+}
+
+.a{
+    font-size: 3rem;
+}
+
+ /* Features */
+
+#features{
+
+    background-color: #FFF;
+    position: relative;
+    margin-top: 10%;
+    font-size: 1.5rem;
+}
+
+.feature-box{
+    text-align: center;
+    margin: 10% 0;
+}
+
+.blue{
+    color: #1827f8;
+    margin-bottom: 1rem;
+}
+
+.red{
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.green{
+    color: green;
+    margin-bottom: 1rem;
+}
+
+
+ /* Carousel */
+
+.active{
+    background-image: url(../img/4.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20%;
+    font-family: 'Cardo', serif;
+    font-weight: 900;
+    font-size: 5rem;
+    color: aliceblue;
+
+}
+
+.next{
+    background-image: url(../img/6.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20%;
+    text-align: center;
+}
+
+.next-next{
+    background-image: url(../img/kgomo.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20%;
+    text-align: right;
+}
+
+.testimonial-h1{
+    font-size: 5rem;
+}
+
+.testimonial-text{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+span{
+    text-decoration: underline;
+}
+
+#cta{
+    text-align: center;
+
+    padding-top: 20px;
+}
+
+.cta-h4{
+    margin-top: 3%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+
+}
+
+/* .form{
+    text-align: left;
+} */
+
+/* .input{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+} */
+
+/* label{
+    font-family: 'Cardo', serif;
+    font-size: 2rem;
+} */
+
+hr{
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width:1028px) {
+    .navbar{
+        margin-left: 37%;
+    }
+
+    .big-heading{
+        margin: 20% 0% 5% 20%;
+        font-size: 3rem;
+        color: #fff;
+        background-color: rgba(2, 2, 2, 0.308);
+    }
+    
+    .sub-heading{
+        background-color: rgba(2, 2, 2, 0.315);
+    }
+    .titleButton{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+}
