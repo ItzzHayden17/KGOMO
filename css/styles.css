@@ -27,7 +27,6 @@
 .page-head{
     font-weight: 700;
     text-align: center;
-     margin-left: 46%;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2rem;
     color: black;
@@ -179,10 +178,7 @@ hr{
 }
 
 @media (max-width:1028px) {
-    .page-head{
-        margin-left: 38%;
-    }
-
+ 
 
     .big-heading{
         margin: 20% 0% 5% 20%;
